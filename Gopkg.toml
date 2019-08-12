@@ -135,3 +135,7 @@ required = [
   branch = "master"
   name = "github.com/metal3-io/baremetal-operator"
   source = "https://github.com/openshift/baremetal-operator"
+
+[[constraint]]
+  name = "github.com/openshift/machine-config-operator"
+  version = "3.11.0"
